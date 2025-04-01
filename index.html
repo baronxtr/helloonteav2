@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HelloOnTea DApp</title>
+</head>
+<body>
+  <img src="https://ml.globenewswire.com/Resource/Download/3fe9b6bd-1633-47ef-a5b8-e34e82307627" alt="Logo" id="logo">
+  <div class="container">
+    <h1>Hello On Tea</h1>
+    <div class="wallet-section">
+      <button id="connectButton">Connect Wallet</button>
+      <p>Wallet: <span id="account">Not connected</span></p>
+    </div>
+    
+    <div class="contract-section">
+      <p>Message: <span id="currentMessage">Loading...</span></p>
+      <p>Total Clicks: <span id="clickCount">Loading...</span></p>
+      <button id="sayHelloButton" disabled>Say Hello</button>
+      
+      <div class="message-input">
+        <input type="text" id="newMessage" placeholder="Set a new message">
+        <button id="setMessageButton" disabled>Update Message</button>
+      </div>
+      
+      <div class="history-section">
+        <h3>Say Hello History</h3>
+        <ul id="helloHistory"></ul>
+      </div>
+    </div>
+    
+    <div class="audio-section">
+      <button id="audioButton">Play Music</button>
+      <audio id="backgroundAudio" loop src="https://fcb2f4e08c25f8c7f8e218352d8f51d0.ipfs.4everland.link/ipfs/bafybeic7dc7ezpi6cdarec4rdhwla532h45di7dkbj3hrziqifgcbslsoq"></audio>
+    </div>
+  </div>
+</body>
+</html>
