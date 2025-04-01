@@ -2,21 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background: url('hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9hg_EjoFoM8jIJd9i0sn90JUgGTTHas_ez9pggwHz9V6l20DEL6yf3EbcvRuljBgP7c&usqp=CAU') no-repeat center center fixed;
+  background: url(https://media.stockimg.ai/image/v2/It7y_e6p9B3Y.png) no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-
-#logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 50px;
-  height: auto;
-  z-index: 1000;
 }
 
 .container {
